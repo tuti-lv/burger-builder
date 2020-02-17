@@ -1,0 +1,14 @@
+.BurgerBuilder {
+	display: flex;
+	flex-direction: column;
+	margin-top: 5%;
+}
+
+@media (min-width: 1024px) {
+	.Burger {
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		height: 100vh;
+	}
+}

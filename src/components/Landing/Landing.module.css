@@ -1,0 +1,47 @@
+.Landing {
+	display: flex;
+	justify-content: space-around;
+	flex-direction: column;
+	background-color: #f3f4f8;
+}
+
+.Header {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	box-sizing: border-box;
+}
+
+.Header p {
+	margin: 0 1em 2em 1em;
+}
+
+.BurgerImg {
+	display: flex;
+	justify-content: flex-end;
+	margin-top: 5%;
+}
+
+.BurgerImg img {
+	height: 450px;
+}
+
+@media (min-width: 1024px) {
+	.Landing {
+		flex-direction: row;
+		justify-content: flex-end;
+	}
+	.BurgerImg img {
+		height: 700px;
+	}
+	.Header {
+		justify-content: center;
+	}
+	.Header h1 {
+		font-size: 4.5em;
+	}
+	.Header p {
+		font-size: 1.5em;
+	}
+}

@@ -1,0 +1,47 @@
+.Auth {
+	margin: 100px auto;
+	width: 80%;
+	text-align: center;
+	border: 4px #ccc;
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
+}
+
+.Auth h3 {
+	padding-top: 20px;
+}
+
+.Auth form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.SwitchAuth {
+	padding-bottom: 20px;
+}
+
+.SwitchButton {
+	background-color: #f3f4f8;
+	outline: none;
+	border: none;
+	color: rgba(11, 133, 133);
+	font-family: inherit;
+	font-size: inherit;
+}
+
+@media (min-width: 600px) {
+	.Auth {
+		width: 500px;
+	}
+}
+
+.Message {
+	width: 60%;
+	margin: auto;
+	text-align: center;
+	border: #ccc solid 2px;
+}
+
+.Message p {
+	font-size: small;
+}

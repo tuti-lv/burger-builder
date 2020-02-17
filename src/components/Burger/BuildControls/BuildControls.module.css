@@ -1,0 +1,27 @@
+.BuildControls {
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	padding: 30px 0;
+	height: 400px;
+	box-sizing: border-box;
+	box-shadow: 0 20px 30px rgba(0, 0, 0, 0.6);
+}
+
+.hamburgerIcon {
+	margin-right: 10px;
+}
+
+.BuildControls p {
+	font-size: 20px;
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
+
+@media (min-width: 1024px) {
+	.BuildControls {
+		width: 400px;
+		box-shadow: 0 10px 20px rgba(0, 0, 0, 0.6);
+		box-sizing: unset;
+	}
+}

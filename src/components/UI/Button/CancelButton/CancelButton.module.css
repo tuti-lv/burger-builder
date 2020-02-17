@@ -1,0 +1,10 @@
+.CancelButton {
+	background: transparent;
+	border: none;
+	outline: none;
+	cursor: pointer;
+}
+
+.AlignEnd {
+	align-self: flex-end;
+}
