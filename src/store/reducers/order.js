@@ -21,7 +21,8 @@ const purchaseBurgerSuccess = (state, action) => {
 	return updateObject(state, {
 		orders: state.orders.concat(action.order),
 		sendingOrder: false,
-		purchased: true
+		purchased: true,
+		loading: true
 	});
 };
 

@@ -3,6 +3,7 @@ import { connect } from 'react-redux';
 
 import axios from '../../axios-orders';
 import * as actionCreators from '../../store/actions/index';
+import classes from './Orders.module.css';
 
 import Order from '../../components/Order/Order';
 import withErrorHandler from '../../hoc/withErrorHandler/withErrorHandler';
@@ -19,6 +20,9 @@ class Orders extends Component {
 			orders = this.props.orders.map((order) => (
 				<Order key={order.id} ingredients={order.ingredients} price={+order.price} />
 			));
+		}
+		if (this.props.orders.length === 0) {
+			orders = <h3 className={classes.Orders}>You Have No Orders To Display</h3>;
 		}
 
 		return <div>{orders}</div>;
