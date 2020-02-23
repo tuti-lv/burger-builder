@@ -34,10 +34,8 @@ class ContactData extends Component {
 					placeholder: 'Street'
 				},
 				value: '',
-				validation: {
-					required: true
-				},
-				valid: false,
+				validation: {},
+				valid: true,
 				touched: false
 			},
 			city: {
@@ -47,10 +45,8 @@ class ContactData extends Component {
 					placeholder: 'City'
 				},
 				value: '',
-				validation: {
-					required: true
-				},
-				valid: false,
+				validation: {},
+				valid: true,
 				touched: false
 			},
 			zipCode: {
@@ -60,12 +56,8 @@ class ContactData extends Component {
 					placeholder: 'ZipCode'
 				},
 				value: '',
-				validation: {
-					required: true,
-					length: 5,
-					isNumeric: true
-				},
-				valid: false,
+				validation: {},
+				valid: true,
 				touched: false
 			},
 			email: {
@@ -75,10 +67,8 @@ class ContactData extends Component {
 					placeholder: 'Your E-Mail Address'
 				},
 				value: '',
-				validation: {
-					required: true
-				},
-				valid: false,
+				validation: {},
+				valid: true,
 				touched: false
 			},
 			deliveryMethod: {

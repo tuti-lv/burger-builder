@@ -143,11 +143,6 @@ class Auth extends Component {
 					</form>
 					{switchAuth}
 				</div>
-				<div className={classes.Message}>
-					<h4>To see the full capabilities of the site please login with the following credentials:</h4>
-					<p>Email: test@test.com</p>
-					<p>Password: 123456</p>
-				</div>
 			</Aux>
 		);
 	}

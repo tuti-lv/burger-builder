@@ -34,14 +34,3 @@
 		width: 500px;
 	}
 }
-
-.Message {
-	width: 60%;
-	margin: auto;
-	text-align: center;
-	border: #ccc solid 2px;
-}
-
-.Message p {
-	font-size: small;
-}
